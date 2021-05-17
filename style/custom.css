@@ -1,0 +1,249 @@
+	body{
+		background-color:#f4f4f4;
+		margin:0;
+		padding:0;
+		background-image: url(../img/background-s.jpg);
+		background-repeat:repeat;
+		min-height:500px;
+		text-align:center;
+		color:#ffffff;
+		background-position:center center;
+	}
+		/*global or index page*/
+		
+	.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+		padding-bottom:20px;
+	}
+	
+	.top{
+		padding-top:40px;
+	}
+	
+	.title{
+		color:#fff;
+	}
+	
+	header ul{
+	
+		margin:0;
+		padding:0;
+	}
+	.h3color{
+		color:#ff0000;
+	}
+	.had{
+		color:#ffffff;
+	}
+	
+	.button-1{
+		height:25px;
+		background:#e8491d;
+		border:0;
+		padding-left:20px;
+		padding-right:20px;
+		color:#ffffff;
+	}
+
+	/* service img call from database */
+	 .images{
+				width:80%;
+				float:left;
+				margin:10px;
+				padding:10px;
+				padding-right:21px;
+				box-sizing:border-box;
+				cursor: pointer;
+				overflow:hidden;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover
+			}
+			img{
+				width:100%;
+				width:100%;
+				transition: all 1s ease-in;
+			}
+			.images:hover img{
+				transform:scale(1.4);
+				transition:all 1s ease-in;
+				filter:brightness(.3);				
+			}
+			.images:hover span{
+				transform:scale(1.4);
+				transition:all 1s ease-in;
+				filter:brightness(.7);
+				color:#fff;
+				font-size:19px;
+			}
+			
+	
+		/*header*/
+	
+	/* showcase */
+	
+	#showcase{
+		padding:80px;
+	}
+	
+	#showcase h1{
+		margin-top:100px;
+		font-size:55px;
+		margin-bottom:10px;
+	}
+	
+	.prgcolor{
+		font-size:20px;
+		color:white;
+		text-align:justify;
+		padding-right:15px;
+	}
+		
+	 /* showcase reg class */
+	 #showcase .reg{
+		margin-right: 50px;
+		margin-left: 250px;
+		float: none;
+		padding-top:20px;
+		padding-bottom:20px;
+	 }
+	 
+	 
+		/* newslatter */
+	
+	#newslatter{
+		padding:15px;
+		color:#ffffff;
+		background:#35424a;
+	}
+	
+	#newslatter h1{
+		float:left;
+	}
+	
+	#newslatter form{
+		float:right;
+		margin-top:20px;
+	}
+	
+	#newslatter input[type="email"]{
+		padding:4px;
+		height:25px;
+		width:250px;
+		color:black;
+	}
+	
+		/* boxes */
+	#boxes {
+		margin-top:20px;
+	}
+	
+	#boxes .box{
+		float:left;
+		text-align:center;
+		width:30%;
+		padding:10px;
+	}
+	
+	#boxes .box img{	
+    height: 142px;
+    width: 200px;
+	}
+	
+	/* footer */ 
+	
+	footer p{
+		position:fixed;
+		left:0;
+		bottom:0;
+		width:100%;
+		background-color:red;
+		color:white;
+		text-align:center;
+		padding-bottom:0;
+		margin-bottom:0px;
+	}
+	
+	
+	/* Services page */
+	
+	#showcase row .box{
+		width:90px;
+		height:77px;
+	}
+
+	.list{
+		color:green;
+	}
+	b{
+		color:#ff0000;
+	}
+	/* login */
+	
+	#showcase form{
+		
+		border:1px solid black;
+		padding:50px,60px;
+	}	
+	#showcase .container-fluid{
+		box-shadow:rgba(0,0,0,0.75);
+		padding-right: 40px;
+		padding-top:90px;
+		text-align:left;
+		color:black;
+	}
+	#showcase form h2{
+		
+		color:black;
+		padding:10px;
+	}
+	
+	/* registration page */
+	.form{
+		padding:10px;
+	}
+	#showcase .top .fromhed{
+		
+		color:#3d9ba5;
+	}
+	
+	/* // content us  */
+	
+	#showcase .top .contect{
+		width:100%;
+		color:#ad990a;
+	}
+	#showcase .top h2{
+		
+		color:#ad990a;
+	}
+	
+	/* // service_imgs page  */
+	
+		#se_img{
+				background-image: url(../img/background-s.jpg);
+				background-repeat:repeat;
+				min-height:500px;
+				text-align:center;
+				color:#ffffff;
+				background-position:center center;
+			}
+			#se_img .container{
+				margin:0;
+				padding: 50px;
+			} 
+			#se_img .hrad{
+				height:100px;
+			}
+			#se_img .hrad h1{
+				color:red;
+			}
+			#se_img .image img{
+				    height: 300px;
+					opacity: 0.9;
+			}
+			#se_img .desc {
+				margin-top:80px;
+			}

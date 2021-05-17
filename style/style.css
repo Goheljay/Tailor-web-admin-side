@@ -1,0 +1,59 @@
+body{
+	/* font-family: 'Times New Roman', Times, serif; */
+	outline: none;
+	background-color: rgb(255, 255, 209);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar-inverse {
+	background-color: #333333;
+	border-color: transparent;
+	margin-bottom: 0px;
+}
+.navbar-inverse .navbar-brand{ 
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 40px;
+}
+#myNavbar .navbar-nav li a{
+	color: #fff;
+	font-size: 19px;
+}
+#myNavbar #course{
+	transition: all 0.3s ease-in-out;
+}
+
+#myNavbar #course:hover{
+	background-color: #c9c7c7;
+}
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	background-color: #f0f0f0;
+	box-shadow: 5px 8px 16px 0px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+}
+
+.dropdown-menu a{
+	color: #000  !important;
+	font-size: 16px !important;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+	transition: all 0.6s ease-in-out;
+}
+
+.dropdown .dropdown-menu a:hover{
+	background-color: #c9c7c7;
+}
+.nav-back:hover{
+	background-color: #bbbdbe;
+	display: block;
+	transition: all 0.6s ease-in-out;
+}
+#header{
+	background-color: #9b9797;
+	color: #fff;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
